@@ -697,7 +697,6 @@ const request = (method, path) => {
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin' : '*'
         }
     };
 
