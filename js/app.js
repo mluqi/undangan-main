@@ -696,7 +696,8 @@ const request = (method, path) => {
         method: method,
         headers: {
             'Accept': 'application/json',
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin' : 'https://backend-undangan-ebon.vercel.app/'
         }
     };
 
